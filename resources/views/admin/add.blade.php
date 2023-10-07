@@ -55,9 +55,14 @@
 </select>
                     </div>
 </div>
-                       <div class="flex-items-center"><label for="Email">Email</label>
+<div class="flex-items-center"><label for="gender">Maintenance Required</label>
                     <div>
-                    <input type="number" min="1" max="4" name="xyear" value="{{old('xyear')}}"/>
+                    <select name="xtypeofservice">
+                        <option value="Scheduled Maintenance">Scheduled Maintenance</option>
+                        <option value="Rreventive Maintenance">Preventive Maintenance</option>
+                        <option value="Full Maintenance">Full Maintenance</option>
+    
+</select>
                     </div>
 </div>
 <div class="flex-items-center"><label for="Type Of Service">Type Of Service</label>
