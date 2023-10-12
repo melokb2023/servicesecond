@@ -39,12 +39,12 @@
                     <input type="text" name="xcontactNumber" value="{{old('xcontactNumber')}}"/>
                     </div>
 </div>
-                 <div class="flex-items-center"><label for="Contact Number">Address</label>
+                 <div class="flex-items-center"><label for="Address">Address</label>
                     <div> 
-                    <input type="text" name="xcontactNumber" value="{{old('xcontactNumber')}}"/>
+                    <input type="text" name="xaddress" value="{{old('xaddress')}}"/>
                     </div>
 </div>
-               <div class="flex-items-center"><label for="gender">Type Of Service</label>
+               <div class="flex-items-center"><label for="Type Of Service">Type Of Service</label>
                     <div>
                     <select name="xtypeofservice">
                         <option value="Reformatting">Reformatting</option>
@@ -55,47 +55,36 @@
 </select>
                     </div>
 </div>
-<div class="flex-items-center"><label for="gender">Maintenance Required</label>
+<div class="flex-items-center"><label for="Maintenance Required">Maintenance Required</label>
                     <div>
-                    <select name="xtypeofservice">
+                    <select name="xmaintenancerequired">
                         <option value="Scheduled Maintenance">Scheduled Maintenance</option>
-                        <option value="Rreventive Maintenance">Preventive Maintenance</option>
+                        <option value="Preventive Maintenance">Preventive Maintenance</option>
                         <option value="Full Maintenance">Full Maintenance</option>
     
 </select>
                     </div>
 </div>
-<div class="flex-items-center"><label for="Type Of Service">Type Of Service</label>
+             <div class="flex-items-center"><label for="Problem Encountered">Problem Encountered</label>
                     <div>
-                    <input type="number" min="1" max="4" name="xyear" value="{{old('xyear')}}"/>
+                    <input type="text" name="xproblemencountered" value="{{old('xproblemencountered')}}"/>
                     </div>
 </div>
-<div class="flex-items-center"><label for="Email">Email</label>
+<div class="flex-items-center"><label for="Customer Password">Customer Password</label>
                     <div>
-                    <input type="number" min="1" max="4" name="xyear" value="{{old('xyear')}}"/>
+                    <input type="text" name="xcustomerpassword" value="{{old('xcustomerpassword')}}"/>
                     </div>
 </div>
-<div class="flex-items-center"><label for="Email">Email</label>
+<div class="flex-items-center"><label for="Assigned Staff">Assigned Staff</label>
                     <div>
-                    <input type="number" min="1" max="4" name="xyear" value="{{old('xyear')}}"/>
+                    <select name="xassignedstaff">
+                        <option value="Scheduled Maintenance">Scheduled Maintenance</option>
+                        <option value="Preventive Maintenance">Preventive Maintenance</option>
+                        <option value="Full Maintenance">Full Maintenance</option>
+    
+</select>
                     </div>
 </div>
-<div class="flex-items-center"><label for="Email">Email</label>
-                    <div>
-                    <input type="number" min="1" max="4" name="xyear" value="{{old('xyear')}}"/>
-                    </div>
-</div>
-<div class="flex-items-center"><label for="Email">Email</label>
-                    <div>
-                    <input type="number" min="1" max="4" name="xyear" value="{{old('xyear')}}"/>
-                    </div>
-</div>
-<div class="flex-items-center"><label for="Email">Email</label>
-                    <div>
-                    <input type="number" min="1" max="4" name="xyear" value="{{old('xyear')}}"/>
-                    </div>
-</div>
-
              <button type ="submit"> Submit Info </button>
                    </form>
                 </div>

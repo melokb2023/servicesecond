@@ -19,7 +19,7 @@ class HomeController extends Controller
 
             else if(Auth::user()->usertype=='1')
             {
-                return view('staff.staffdatabase');
+                return view('staffdatabase');
             }
         
            else
